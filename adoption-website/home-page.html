@@ -1,0 +1,174 @@
+<!--FrontEnd Course - OK Coders -->
+<!--Programmer: Shary Hammer -->
+<!-- Date: October 5, 2018 -->
+<!--Instructor: Preston Schwartz -->
+<!-- Final Project Learning Bootstrap -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--Mobile First view  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome To Worldwide Animal Adoption</title>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="adoptable-animals/animal-detail.css">
+
+  <style>
+
+
+  </style>
+
+</head>
+
+<body class="back_color">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown">
+              World Wide Adoption
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="./home-page.html">WWA</a></li>
+              <li><a href="adoptable-animals/animals_list.html">List of Animals</a></li>
+              <li><a href="adoptable-animals./location.html">Our Location</a></li>
+              <li><a href="adoptable-animals/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="./home-page.html">WWA</a>
+    <a class="navbar-brand" href="adoptable-animals/contact.html">Contact Us</a>
+  </nav> -->
+
+
+  <div class="jumbotron">
+  </div>
+
+  <div class="p-3 mb-2 bg-secondary text-light card text-center card-title card-responsive-sm">
+    <h1 class="text-center ml-3">Welcome To Worldwide Animal Adoption</h1>
+    <h5 class="text-center ml-3">Featured Dogs for Adoption</h5>
+  </div>
+  <!--Developed col for mobile first. Then reverse rows for medium and large devices  -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 p-1 col-md-3">
+        <a href="./adoptable-animals/sam-detail.html" class="german_shepherd">
+          <img class="img_size rounded-circle" src="./image/gs.jpg" alt="picture of german shepherd">
+        </a>
+      </div>
+      <div class="col-sm-10 col-md-9">
+        <a href="./adoptable-animals/sam-detail.html" class="german_shepherd text-secondary">
+          <h5>Sam</h5>
+          <p>Sam is a male German Shepherd that is adoptable. He is 4 years old. He is very friendly.
+            He like to play and fetch a ball. He is house trained and loves to be in the outdoors.
+            He would be a great asset to a family. He loves children and it very loving toward children.
+            He isn’t a picky eater and loves his dog bones. If you would like to visit Sam just leave a
+            message to us in our Contact Us page.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row flex-lg-row-reverse flex-md-row-reverse">
+      <div class="col-sm-2 p-1 col-md-3">
+        <a href="./adoptable-animals/tommy.html">
+          <img class="img_size rounded-circle" src="./image/takemehome.jpg" alt="picture of blue heeler mix">
+        </a>
+      </div>
+      <div class="col-sm-10 col-md-9">
+        <a href="./adoptable-animals/tommy.html" class="text-secondary blue-heeler">
+          <h5>Tommy</h5>
+          <p>Tommy is a male Blue Heeler that is adoptable. He is 3 years old. He is very friendly.
+            He has been trained to herd cattle. His former owner gave up his life style of farming
+            and moved to the city and felt Tommy would not adjust to the city life. He is a hard worker
+            with herding cows. He is ready to get back to work on a farm. He is a very loving dog and
+            would be great asset to a family on a farm. If you would like to visit Tommy just leave a message
+            to us in our Contact Us page.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 p-1 col-md-3">
+        <a href="./adoptable-animals/emma.html">
+          <img class="img_size rounded-circle" src="./image/emma.jpg" alt="picture of husky">
+        </a>
+      </div>
+      <div class="col-sm-10 col-md-9">
+        <a href="./adoptable-animals/emma.html" class="text-secondary">
+          <h5>Emma</h5>
+          <p>Emma is a female Husky that is adoptable. She is 6 years old. She is very friendly.
+            She loves the outdoors and prefers being outside. She is house trained and loves
+            playing and fetching a ball. She is very active and would be more suited with a younger
+            family. She is not a picky eater and loves being around people. She gets along with other
+            dogs and is not aggressive toward other dogs. If you would like to visit Emma just
+            leave a message to us in our Contact Us page. </p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row flex-lg-row-reverse flex-md-row-reverse">
+      <div class="col-sm-2 p-1 col-md-3">
+        <a href="./adoptable-animals/bud.html">
+          <img class="img_size rounded-circle" src="./image/oldretreiver.jpg" alt="picture of golden_retriever">
+        </a>
+      </div>
+      <div class="col-sm-10 col-md-9">
+        <a href="./adoptable-animals/bud.html" class="text-secondary">
+          <h5>Bud</h5>
+          <p>Bud is a male Golden Retriever that is adoptable. He is in his golden years
+            and is 10 years old. He does have problems with his hips but is able to get
+            around well. He is fairly-healthy for his age. He would be a good companion
+            for an older family. He is very friendly and loving. He has a great disposition
+            and still likes to play sometimes. He loves to take walks and knows how to walk on a leash.
+            He is very obedient and well trained. If you would like to visit Bud just leave a message
+            in our Contact Us page. </p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 p-1 col-md-3">
+        <a href="./adoptable-animals/dekota.html">
+          <img class="img_size rounded-circle" src="./image/dekota6.jpg" alt="picture of black lab">
+        </a>
+      </div>
+      <div class="col-sm-10 col-md-9">
+        <a href="./adoptable-animals/dekota.html" class="text-secondary">
+          <h5>Dekota</h5>
+          <p>Dekota is a Black Lab that is adoptable. He is 4 years old and he is a problem child.
+            He has been abused and suffers from the abuse he has experienced. Therefore, he is not very
+            friendly and will require a special person to adopt him. He needs someone that can give him a
+            lot of attention to get over his abuse. He has improved at our shelter and we believe it is adoptable.
+            If you would like to visit Dekota just leave a message in our Contact Page. </p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Have questions? Email us at <a href="mailto:sharyl1266@gmail.com">worldwideadoption.org</a></p>
+  </footer>
+</body>
+
+</html>

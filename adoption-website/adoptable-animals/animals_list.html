@@ -1,0 +1,182 @@
+<!--FrontEnd Course - OK Coders -->
+<!--Programmer: Shary Hammer -->
+<!-- Date: October 5, 2018 -->
+<!--Instructor: Preston Schwartz -->
+<!-- Second Week Assignment  Learning Bootstrap -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--Mobile First view  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome To Worldwide Animal Adoption</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="animal-detail.css">
+
+  <style>
+
+
+  </style>
+
+</head>
+
+<body class="p-3 mb-2 bg-secondary text-white img_background">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container pawsprints">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown">
+              World Wide Adoption
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="../home-page.html">WWA</a></li>
+              <li><a href="animals_list.html">List of Animals</a></li>
+              <li><a href="./location.html">Our Location</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="./home-page.html">WWA</a>
+    <a class="navbar-brand" href="adoptable-animals/contact.html">Contact Us</a>
+  </nav> -->
+
+
+
+
+  <div class="p-3 mb-2 bg-secondary text-light card text-center card-title card-responsive-sm">
+    <h1 class="text-center ml-3">Worldwide Animal Adoption</h1>
+    <h5 class="text-center ml-3">Dogs for Current Adoption</h5>
+  </div>
+  <!--Developed col for mobile first. Then reverse rows for medium and large devices  -->
+
+  <div class="container">
+    <div class="row mb-5 pt-5 text-center">
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle" src="../image/bostonterrier.jpg" alt="picture of cattle dog">
+        <div class="img-text img_dsp">Yoda</div>
+
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/sadpuppy.jpg" alt="picture of golden retriever">
+        <div class="img-text img_dsp">Jake</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/dogface.jpg" alt="picture of golden retriever">
+        <div class="img-text">Barry</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/bc.jpg" alt="picture of golden retriever">
+        <div class="img-text">Lucy</div>
+      </div>
+    </div>
+  </div>
+  <!-- Second Row of Images -->
+
+  <div class="container">
+    <div class="row mb-5 text-center">
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/whitepuppies.jpg" alt="picture of cattle dog">
+        <div class="img-text">Sam & Deliah</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/gr.jpg" alt="picture of golden retriever">
+        <div class="img-text">Henry</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/alaskanhusky.jpg" alt="picture of golden retriever">
+        <div class="img-text">Sampson</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/layinggs.jpg" alt="picture of golden retriever">
+        <div class="img-text">Rusty</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mb-5 text-center">
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/greylab.jpg" alt="picture of white lab puppy">
+        <div class="img-text">Rico</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/dalmation.jpg" alt="picture of dalmation">
+        <div class="img-text">Parker</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/collie.jpg" alt="picture of collie">
+        <div class="img-text">Bella</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/beagle.jpg" alt="picture of beagle">
+        <div class="img-text">Tippy</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mb-5 text-center">
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/boxer.jpg" alt="picture of boxer">
+        <div class="img-text">Velvet</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/hooch.jpg" alt="picture of hooch">
+        <div class="img-text">Hooch</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/barney.jpg" alt="picture of barney">
+        <div class="img-text">Barney</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/pitbull.jpg" alt="picture of pit bull">
+        <div class="img-text">Edgar</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mb-5 text-center">
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/maltese.jpg" alt="picture of maltese">
+        <div class="img-text">Sandy</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/peekinese.jpg" alt="picture of peekinese">
+        <div class="img-text">Bentley</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/spaniel.jpg" alt="picture of spaniel">
+        <div class="img-text">Ruby</div>
+      </div>
+      <div class="col-sm-3 img-container">
+        <img class="rounded rounded-circle img_fade" src="../image/puppy.jpg" alt="picture of puppy">
+        <div class="img-text">Rodger</div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
